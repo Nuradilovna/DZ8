@@ -1,0 +1,46 @@
+canvas{
+    display: block;
+    margin:0 auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+.restart{
+    width: 200px;
+    height: 70px;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 145px;
+    font-size: 40px;
+}
+.counts{
+    background-color: orange;
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 120px;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
